@@ -1,0 +1,8 @@
+.secrets
+.secrets/**
+.secrets/**/**
+*.crt
+*.secrets
+*.pass
+*.env
+KodeKloud-Engineer/Task(TEMPLATE).md
