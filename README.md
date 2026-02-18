@@ -1,7 +1,7 @@
 # Virtual Internships
 Log of Virtual Internships, Job-simulations and adjacent learning methodologies.
 
-## What is a Virtual Internship
+## What is a Virtual Internship in this context
 A virtual internship is a method of learning to simulate a real world work location, where your task are focused on real world applications of skills for your career path. The end-goal is real world task skill application, in a real world settings, without the stakes of failure. Often times, the task are linked via the meta narrative of the simulation and can build upon each other as a project would. Sometimes these Virtual internships can simulate ticket systems, internal documentation and internal communication methods to round out real world experience. Oftentimes these systems can lean on gamification via leaderboards and points, to help promote learning. In rare instances, they have internal job boards with the ability to connect real world learners with job opportunities.
 
 ## My goal
