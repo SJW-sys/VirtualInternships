@@ -11,7 +11,7 @@
 
 1. install ansible using pip3
 
-    pip3 install ansible==4.7.0
+    sudo -H pip3 install ansible==4.7.0
 
 2. submit
 
