@@ -11,12 +11,26 @@
 
 1. Connect to target server, login details found in the 'company' wiki. (In a real world this would be in a vault,or you be accessing via your own assigned identity, not a shared identity.)
 
+    ssh banner@stapp03
 
+2. (optional) review running docker containers on host
 
-2. 
+    sudo docker ps
 
+3. check file permissions on host
+
+    ls -al /tmp/nautilus.txt.gpg
+
+4. copy host file into container
+
+    sudo docker cp /tmp/nautilus.txt.gpg ubuntu_latest:/usr/src
+
+4. Validate file exist in container, and file permissions align (they should)
+
+    sudo docker exec ubuntu_latest ls -al /usr/src
+
+5. submit
 
 ## My Comments
-NA
-
+I rarely have had to copy files into docker machines in my experince, used ' sudo docker --help ' to fined the ' cp ' command is valid with docker, and dug in the help menu with cp ' sudo docker cp --help '.
 
