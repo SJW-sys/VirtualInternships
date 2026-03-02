@@ -38,19 +38,19 @@
 
     ls -al /var/lib/
 
-        drwxr-xr-x 1 root  root  4096 Mar  2 19:32 . </br>
-        drwxr-xr-x 1 root  root  4096 Mar  2 19:32 .. </br>
-        drwxr-xr-x 1 root  root  4096 Aug 29  2025 alternatives </br>
-        drwxr-xr-x 1 root  root  4096 Aug 29  2025 dnf </br>
-        drwxr-xr-x 2 root  root  4096 Jun 25  2024 games </br>
-        drwxr-xr-x 2 root  root  4096 Jun 25  2024 misc </br>
-        drwxr-xr-x 4 mysql mysql 4096 Mar  2 19:32 mysqld </br>
-        drwx------ 2 root  root  4096 Aug 29  2025 private </br>
-        drwxr-xr-x 1 root  root  4096 Mar  2 19:21 rpm </br>
-        drwxr-xr-x 2 root  root  4096 Jun 25  2024 rpm-state </br>
-        drwxr-xr-x 3 root  root  4096 Aug 26  2025 selinux </br>
-        drwxr-xr-x 1 root  root  4096 Mar  2 19:32 systemd </br>
-        drwxr-xr-x 1 root  root  4096 Aug 29  2025 tpm2-tss </br>
+        drwxr-xr-x 1 root  root  4096 Mar  2 19:32 .
+        drwxr-xr-x 1 root  root  4096 Mar  2 19:32 ..
+        drwxr-xr-x 1 root  root  4096 Aug 29  2025 alternatives
+        drwxr-xr-x 1 root  root  4096 Aug 29  2025 dnf
+        drwxr-xr-x 2 root  root  4096 Jun 25  2024 games
+        drwxr-xr-x 2 root  root  4096 Jun 25  2024 misc
+        drwxr-xr-x 4 mysql mysql 4096 Mar  2 19:32 mysqld
+        drwx------ 2 root  root  4096 Aug 29  2025 private
+        drwxr-xr-x 1 root  root  4096 Mar  2 19:21 rpm
+        drwxr-xr-x 2 root  root  4096 Jun 25  2024 rpm-state
+        drwxr-xr-x 3 root  root  4096 Aug 26  2025 selinux
+        drwxr-xr-x 1 root  root  4096 Mar  2 19:32 systemd
+        drwxr-xr-x 1 root  root  4096 Aug 29  2025 tpm2-tss
 
     no directory, what does exist is misnamed, but does have correct permissions. Reviewed online resources to ensure mysqld is not expected file for something else with mysql.
 
