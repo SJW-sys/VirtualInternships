@@ -27,7 +27,6 @@
 
     journalctl -xeu mariadb.service
 
-
         Mar 02 19:38:12 stdb01.stratos.xfusioncorp.com mariadb-prepare-db-dir[2286]: Database MariaDB is not initialized, but the directory /var/lib/mysql is not e
     mpty, so initialization cannot be done. </br>
         Mar 02 19:38:12 stdb01.stratos.xfusioncorp.com mariadb-prepare-db-dir[2286]: Make sure the /var/lib/mysql is empty before running mariadb-prepare-db-dir. </br>
