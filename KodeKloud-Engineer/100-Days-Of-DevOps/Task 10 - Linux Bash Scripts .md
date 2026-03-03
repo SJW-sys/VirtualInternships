@@ -65,6 +65,7 @@
 
 
     Add the following, this is a bare bones solution, for a more robust add outputs at cli, logging, error catching, etc.
+    
         #!/bin/bash
         #zipping files to local backup
         zip -r /backup/xfusioncorp_ecommerce.zip /var/www/html/ecommerce
