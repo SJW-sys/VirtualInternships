@@ -30,6 +30,6 @@
 6. submit
 
 ## My Comments
-In theory If this was in a prod environment, It might be worth to review any templates (terraform/packer/etc) or ansible setups to ensure the timezones are accurate to what we want for our base systems.
+In theory If this was in a prod environment, It might be worth to review any templates (terraform/packer/etc) or ansible setups to ensure the timezones are accurate to what we want for our base systems. Sounds like we want to review options to set it based on local datacenter timezones.
 
 
